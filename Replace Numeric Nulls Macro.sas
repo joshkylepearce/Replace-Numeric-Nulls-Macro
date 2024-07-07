@@ -1,5 +1,5 @@
 /************************************************************************************
-***** Program: 	Replace Numeric Nulls Macro *****
+***** Program: 	Replace Numeric Nulls Macro 	*****
 ***** Author:	joshkylepearce      		*****
 ************************************************************************************/
 
@@ -8,8 +8,8 @@ Purpose:
 Replace null values of numeric values with a user-inputted value.
 
 Input Parameters:
-1. input_data	- The name of the input dataset.
-2. value		- The value that replaces null values of numeric variables.
+1. 	input_data	- The name of the input dataset.
+2. 	value		- The value that replaces null values of numeric variables.
 
 Macro Usage:
 1.	Run the replace_nulls_numeric macro code.
@@ -17,7 +17,7 @@ Macro Usage:
 	e.g. %replace_nulls_numeric(input_data=work.library,value=0);
 
 Note:
-1. Input parameter 'value' is compatible with/without quotations.
+1. 	Input parameter 'value' is compatible with/without quotations.
 ************************************************************************************/
 
 /*Create a macro to replace all null values of numeric variables with zero*/
